@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/images/
+data/labels/
+runs/
+outputs/real_test_results/
+*.pt
+!models/face_detector_best.pt
+.DS_Store
+Thumbs.db

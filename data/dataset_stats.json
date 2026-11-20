@@ -1,0 +1,25 @@
+{
+  "dataset": "WIDER FACE (CUHK-CSE/wider_face)",
+  "dataset_url": "http://shuoyang1213.me/WIDERFACE/",
+  "hf_mirror": "https://huggingface.co/datasets/CUHK-CSE/wider_face",
+  "seed": 42,
+  "filter": {
+    "min_face_size_px": 16,
+    "max_faces_per_image": 12,
+    "invalid_excluded": true
+  },
+  "splits": {
+    "train": {
+      "images": 600,
+      "faces": 1907
+    },
+    "val": {
+      "images": 150,
+      "faces": 449
+    },
+    "test": {
+      "images": 150,
+      "faces": 483
+    }
+  }
+}
